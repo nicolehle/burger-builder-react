@@ -17,4 +17,5 @@ total price: $-
 
 ###Difficulty and Solution
 D: Figuring out each components' props and two way connection between those.
-S: Understanding Component Tree, and chrom react dev tool to see components in order helped. 
+S: Understanding Component Tree, and chrome react dev tool to see components in order helped.
+<break>
