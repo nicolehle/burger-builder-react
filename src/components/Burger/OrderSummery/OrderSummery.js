@@ -1,12 +1,14 @@
 import React from 'react';
 
 import Aux from '../../../auxiliary/Auxiliary';
+import Button from '../../UI/Button/Button';
+
 const orderSummery = (props) => {
 
   const ingredientsList = Object.keys(props.ingredients)
         .map(igKey => {
           return (
-            <li>
+            <li key={igKey}>
             <span>{igKey.toUpperCase()}</span>: {props.ingredients[igKey]}
             </li>
           )
@@ -19,7 +21,14 @@ const orderSummery = (props) => {
       <ul>
         {ingredientsList}
       </ul>
+      <p><strong>Total Price: ${props.price.toFixed(2)}</strong></p>
       <p>Continue to Checkout?</p>
+      <Button
+        clicked={props.orderCancel}
+        btnType="Danger">Cancel</Button>
+      <Button
+        clicked={props.orderContinue}
+        btnType="Success">Order</Button>
     </Aux>
   )
 };
