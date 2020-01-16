@@ -1,21 +1,39 @@
-#Burger Builder React Application
+# Burger Builder React Application
 Clients are able to choose ingredients and amount of it to make their own burger.
 
-###Component Tree
+### Component Tree
 
+```
 
-###Application state
-Ingredient:
-{
-  meat: 2
-  salad: 2
-  etc
+App
+    -Burger
+          -BurgerControls
+          -BurgerIngredient
+          -OrderSummery
+    -Navigation
+          -SideDrawer
+          -Toolbar
+          -NavigationItem
+    -UI
+    -Logo
+      
+```
+
+### Stateful Data
+```
+ingredients {
+  salad: '1',
+  meat: '2'
 },
-purchased: true/false,
-total price: $-
+purchase: true/false,
+totalPrice: '12'
+
+```
 
 
-###Difficulty and Solution
-D: Figuring out each components' props and two way connection between those.
-S: Understanding Component Tree, and chrome react dev tool to see components in order helped.
-<break>
+### Difficulty and Solution
+D: Figuring out each components' props and two way connection between those.<br>
+S: Understanding Component Tree, and using chrome react dev tool to see components in order.
+
+
+### Live Demo
