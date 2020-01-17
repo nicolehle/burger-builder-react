@@ -1,5 +1,9 @@
 # Burger Builder React Application
-Clients are able to choose ingredients and amount of it to make their own burger.
+A Burger Building App.<br>
+This App is for practicing React purpose.<br>
+Clients are able to choose ingredients and amount of it to make their own burger.<br>
+Once burger order's continued in ordersummary, the data goes to Firebase.
+
 
 ### Component Tree
 
