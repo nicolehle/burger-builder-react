@@ -35,7 +35,7 @@ totalPrice: '12'
 ```
 
 
-### Difficulty and Solution
+### Challenge and Solution
 D: Figuring out each components' props and two way connection between those.<br>
 S: Understanding Component Tree, and using chrome react dev tool to see components in order.
 
